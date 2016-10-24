@@ -5,7 +5,6 @@ developed by JL Stoefs 19/03/2016 jlstoefs@gmail.com This example is in the publ
  * Based on ReceiveSMS, SendSMS from GSM.h library and Arduino Nano v3.
  * Description: sketch to control the boiler status (normal mode vs ECO mode) via a SIMM900 GPS shield and arduino. Activity monitoring enabled via the serial monitor
  * When the system is unpowered, the boiler will be on normal mode. When the system is initialized, it switches to ECO mode by default.
- * 
  * Boiler Wiring: in our case, the boiler is functionning normally if 2 boiler wires (A & B below) are NOT connected. When A&B are connected, the boiler switches to ECO mode. 
  ==>A & B wires will be connected to the "normally open circuit" connections of the relay (left and middle pins of the relay).See your own boiler description for correct setup.
 
