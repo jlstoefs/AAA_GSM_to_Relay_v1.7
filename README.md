@@ -29,5 +29,6 @@ Valid SMS command lines:
 v1.4: Buzzer functionality added
 v1.5: lighter, minor improvements ( StartupLedShow function)
 v1.6: F() function used for Serial.print
-v1.7: SMS_Content defined in the loop and not globally (ensures that its content is deleted once out of SMS.available {}
+v1.7: SMS_Content defined in the loop and not globally (ensures that its content is deleted once out of SMS.available {} )
+
 -------------------------------------------------------------------------------------------------------
